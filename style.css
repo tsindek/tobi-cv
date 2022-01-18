@@ -30,3 +30,26 @@ h6 {
   margin: 0 auto;
   padding: 20px;
 }
+
+.spacing {
+  margin-top: 25px;
+}
+
+.nav {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+.nav:hover {
+  background-color: thistle;
+}
+
+.nav:active {
+  background-color: tomato;
+}
+
+article + article {
+  border-top: solid gray;
+}
