@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-* {
+html {
   font-family: "Roboto Mono", monospace;
 }
 
@@ -42,13 +42,9 @@ h6 {
 .nav {
   margin-left: 10px;
   margin-right: 10px;
-  font-weight: bold;
+  font-weight: 500;
   color: white;
-}
-
-a {
   text-decoration: none;
-  font-weight: bold;
 }
 
 .nav:hover {
