@@ -42,7 +42,6 @@ h6 {
 .nav {
   margin-left: 10px;
   margin-right: 10px;
-  font-weight: 500;
   color: white;
   text-decoration: none;
 }
@@ -56,6 +55,15 @@ h6 {
   background-color: tomato;
 }
 
+.exp-heading {
+  display: inline-block;
+}
+
+.exp-subheading {
+  display: inline-block;
+}
+
+/*borders over main articles*/
 article + article {
   border-top: solid gray;
 }
