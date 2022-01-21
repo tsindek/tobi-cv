@@ -1,3 +1,6 @@
+/***************************************************************/
+/* General Styling*/
+
 * {
   box-sizing: border-box;
 }
@@ -19,16 +22,43 @@ h6 {
   font-family: "Roboto", sans-serif;
 }
 
+::selection {
+  background-color: gray;
+  color: white;
+}
+
+/***************************************************************/
+/* Specific Styling*/
+
 .header {
   text-align: center;
   background-color: lightsteelblue;
   padding: 40px 20px;
 }
 
+.hire-me {
+  position: absolute;
+  right: 30px;
+  top: 25px;
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+main article {
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
 .main {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+}
+
+/*borders over main articles*/
+article + article {
+  border-top: solid gray;
 }
 
 .spacing {
@@ -38,7 +68,7 @@ h6 {
 .profession::after {
   content: "👨‍🎓";
 }
-
+/* navigation bar */
 .nav {
   margin-left: 10px;
   margin-right: 10px;
@@ -63,12 +93,7 @@ h6 {
   display: inline-block;
 }
 
-/*borders over main articles*/
-article + article {
-  border-top: solid gray;
-}
-
-::selection {
-  background-color: gray;
-  color: white;
+.article-heading {
+  position: relative;
+  left: -20px;
 }
