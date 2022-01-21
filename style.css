@@ -7,6 +7,7 @@
 
 html {
   font-family: "Roboto Mono", monospace;
+  font-size: 16px;
 }
 
 body {
@@ -33,27 +34,43 @@ h6 {
 .header {
   text-align: center;
   background-color: lightsteelblue;
-  padding: 40px 20px;
+  padding: 2rem 1rem;
 }
 
 .hire-me {
   position: absolute;
-  right: 30px;
-  top: 25px;
+  right: 1.5rem;
+  top: 1.25rem;
   background-color: white;
   border-radius: 0.5rem;
   padding: 1rem;
 }
 
+.heading-group {
+  font-size: 4rem;
+}
+
+.main-heading {
+  font-size: 1em;
+}
+
+.profession {
+  font-size: 0.25em;
+}
+
+.profession::after {
+  content: "👨‍🎓";
+}
+
 main article {
-  padding-left: 20px;
-  padding-right: 10px;
+  padding-left: 1rem;
+  padding-right: 0.5rem;
 }
 
 .main {
-  max-width: 800px;
+  max-width: 70ch;
   margin: 0 auto;
-  padding: 20px;
+  padding: 1rem;
 }
 
 /*borders over main articles*/
@@ -62,16 +79,13 @@ article + article {
 }
 
 .spacing {
-  margin-top: 25px;
+  margin-top: 1.25rem;
 }
 
-.profession::after {
-  content: "👨‍🎓";
-}
 /* navigation bar */
 .nav {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
   color: white;
   text-decoration: none;
 }
@@ -84,6 +98,7 @@ article + article {
 .nav:active {
   background-color: tomato;
 }
+/******************/
 
 .exp-heading {
   display: inline-block;
@@ -95,5 +110,5 @@ article + article {
 
 .article-heading {
   position: relative;
-  left: -20px;
+  left: -1rem;
 }
