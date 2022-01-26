@@ -47,6 +47,12 @@ h6 {
   text-align: center;
   background-color: lightsteelblue;
   padding: 2rem 1rem;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 190, 233, 1) 100%
+  );
 }
 
 .hire-me {
@@ -93,7 +99,7 @@ main article {
 
 /*borders over main articles*/
 article + article {
-  border-top: solid gray;
+  border-top: solid rgb(157, 189, 229);
 }
 
 .spacing {
@@ -170,4 +176,16 @@ article + article {
 .article-heading {
   position: relative;
   left: -1rem;
+}
+
+.footer-style {
+  background-color: rgb(157, 189, 229);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.outro {
+  max-width: 70ch;
+  margin: 0 auto;
+  padding: 1rem;
 }
