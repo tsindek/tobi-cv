@@ -82,6 +82,14 @@ h6 {
   background: var(--header-gradient);
 }
 
+.header:hover .hire-me {
+  transform: scale(1.1);
+}
+
+.header:focus-within .hire-me {
+  transform: scale(1.5);
+}
+
 .hire-me {
   position: absolute;
   right: 1.5rem;
@@ -90,6 +98,7 @@ h6 {
   color: var(--hire-me-color);
   border-radius: 0.5rem;
   padding: 1rem;
+  transition: transform 0.2s;
 }
 
 @media screen and (min-width: 992px) {
