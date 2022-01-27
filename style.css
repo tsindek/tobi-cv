@@ -21,7 +21,7 @@ html {
   --selection-color: white;
   --hire-me-bg-color: white;
   --hire-me-color: black;
-  --border-top-color: solid rgb(157, 189, 229);
+  --border-top-color: 2px solid rgb(157, 189, 229);
   --nav-hover-color: thistle;
   --nav-active-color: tomato;
   --footer-bg-color: rgb(157, 189, 229);
@@ -128,6 +128,11 @@ main article {
   padding-right: 0.5rem;
 }
 
+.article-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .main {
   max-width: 70ch;
   margin: 0 auto;
@@ -221,6 +226,10 @@ article + article {
 .article-heading {
   position: relative;
   left: -1rem;
+}
+
+.address {
+  color: var(--nav-bar-color);
 }
 
 .footer-style {
