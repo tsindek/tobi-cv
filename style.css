@@ -27,6 +27,7 @@ html {
   --footer-bg-color: rgb(157, 189, 229);
   --page-bg-color: white;
   --page-text-color: black;
+  --nav-focus-color: green;
 }
 
 @media screen and (min-width: 786px) {
@@ -169,11 +170,19 @@ article + article {
   margin-right: 0.5rem;
   color: var(--nav-bar-color);
   text-decoration: none;
+  padding: 0.5rem;
+  transition: color 0.3s, background-color 0.3s, font-weight 0.3s;
+  border-radius: 5px;
 }
 
 .nav:hover {
   background-color: var(--nav-hover-color);
+
   font-weight: bold;
+}
+
+.nav:focus {
+  color: var(--nav-focus-color);
 }
 
 .nav:active {
